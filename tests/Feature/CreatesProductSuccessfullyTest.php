@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
 
-class CreatesProductSuccessfully extends TestCase
+class CreatesProductSuccessfullyTest extends TestCase
 {
     use WithFaker;
 
