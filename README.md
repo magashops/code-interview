@@ -1,4 +1,4 @@
-Tu objetivo hoy es crear un endpoint cuya funcion va a ser crear productos.
+Tu objetivo hoy es crear un endpoint que cumpla con lo definido.
 
 _Esta es la especificacion del endpoint:_
 
