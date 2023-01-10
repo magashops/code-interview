@@ -1,7 +1,8 @@
 FROM php:8.0-fpm-alpine
 
-RUN apk update \
-    && apk add  --no-cache git mysql-client curl libmcrypt libmcrypt-dev openssh-client icu-dev \
+RUN apk update;
+RUN  apk add --update linux-headers
+RUN apk add  --no-cache git mysql-client curl libmcrypt libmcrypt-dev openssh-client icu-dev \
     libxml2-dev libzip-dev freetype-dev libpng-dev libjpeg-turbo-dev g++ make autoconf curl-dev openssl-dev \
     && docker-php-source extract \
     && pecl install xdebug \
